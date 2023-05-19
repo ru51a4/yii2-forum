@@ -1,0 +1,153 @@
+.vb-card {
+    .vb-card--blue {
+        background: #1b335b;
+        color: #FFFFFF;
+        font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+        padding: 3px 6px 3px 6px;
+        white-space: nowrap;
+    }
+
+    input {
+
+        background: #f5f5f5;
+        color: #000000;
+        border-bottom: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+        padding: 1px 2px;
+    }
+}
+
+body {
+    font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+
+.main--left {
+    &-title {
+        background: #f5f5f5 url(blue/thead.png);
+        color: #000000;
+        font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+        border-bottom: 1px solid #bebebe;
+    }
+
+    &-header {
+        background: #1b335b url(blue/tcat.gif);
+        color: #FFFFFF;
+        font: bold 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+        padding: 5px;
+    }
+
+}
+
+.main--main {
+    background: #EFEFEF;
+    color: #000000;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e6e6e6;
+
+    &-logo {
+        padding: 10px;
+        background: #EFEFEF;
+        color: #000000;
+        border-bottom: 1px solid #e0e0e0;
+        border-right: 1px solid #e6e6e6;
+    }
+
+    &-href {
+        background: #f5f5f5;
+        color: #000000;
+        border-bottom: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+        padding: 10px;
+
+        div {
+            color: blue;
+            cursor: pointer;
+        }
+    }
+}
+
+.catalog {
+    &--href {
+        background: #f5f5f5;
+        color: #000000;
+        border-bottom: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+        padding: 5px;
+
+    }
+}
+
+
+//card todo fix
+
+.avatar {
+    margin: 10px;
+    max-width: 80px;
+    border: 2px solid black;
+}
+
+.nickname {
+    text-align: center
+}
+
+.nickname-author {
+    font-weight: bold;
+}
+
+.card:not(:last-child) {
+    border-bottom: 0px !important;
+}
+
+.card {
+    border-radius: 0px !important;
+    padding: 0px !important;
+}
+
+a .card:hover {
+    color: black;
+}
+
+a:not(:last-child) .card {
+    border-bottom: 0px !important;
+}
+
+.card-avatar {
+    margin-top: 5px;
+}
+
+
+.auth .nickname-author {
+    margin-right: 10px;
+}
+
+.card-body {
+    justify-content: space-between !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card-text {
+    word-break: break-all;
+}
+
+.card-avatar {
+    max-width: 10%;
+    min-width: 100px;
+}
+
+
+
+
+//
+
+.theme {
+    &--card {
+        border: 1px solid #1b335b;
+    }
+}
